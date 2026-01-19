@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/placeholder/banner.png" width="100%" alt="banner"/>
 
 # 👋 Hi, I'm Vaishnavi Kumari  
 ### Frontend Developer | CSE Diploma Student  
