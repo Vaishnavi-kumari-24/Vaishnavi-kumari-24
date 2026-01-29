@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -21,15 +21,16 @@
 
   <nav class="nav-links">
     <a href="#section-home">HOME</a>
-    <a href="#section-portfolio">PORTFOLIO</a>
+    <a href="#section-portfolio">PROJECTS</a>
     <a href="#section-resume">RESUME</a>
+    <a href="#section-skill">SKILL</a>
     <a href="#section-about">ABOUT</a>
     <a href="#section-contact">CONTACT</a>
   </nav>
 </header>
 
 <!-- HERO -->
-<section class="hero" id="home">
+<section class="hero" id="section-home">
   <div class="overlay"></div>
 
   <div class="hero-content">
@@ -39,17 +40,17 @@
       <span>Vaishnavi Kumari</span>
     </h1>
 
-    <p class="subtitle">Web Developer | Frontend Designer</p>
+    <p class="subtitle1">Web Developer | Frontend Designer</p>
     <p class="skills">HTML • CSS • Bootstrap • JavaScript • Php • My Sql</p>
 
     <div class="buttons">
       <a href="#portfolio" class="btn primary">VIEW WORK</a>
-      <a href="resume.pdf" class="btn outline" download>DOWNLOAD CV</a>
+      <a href="My_Resume.pdf" class="btn outline" download>DOWNLOAD RESUME</a>
     </div>
   </div>
 </section>
 
-<!-- // Portfolio -->
+<!-- // Projects -->
 
 <section class="portfolio" id="section-portfolio">
   <h2 class="title">Projects</h2>
@@ -91,7 +92,7 @@
 <!-- MY SKILLS -->
 
 <div class="my_skill">
-<section class="skill"><br>
+<section class="skill" id="section-skill"><br>
     <h2>My <span>Skill</span></h2>
 
     <div class="skill_boxes">
@@ -169,7 +170,7 @@
 </section>  
 </div>
 <!-- About section --><BR>
-  <section>
+  <section id="section-about">
     <h1 class="title" id="about">About Me</h1><br><br>
  	 <div class="about-container">
     
@@ -194,11 +195,125 @@
         to build clean and professional web interfaces.
       </p>
 
-      <a href="resume.pdf" class="btn1" download>Download CV</a>
+      <a href="My_Resume.pdf" class="btn1" download>Download RESUME</a>
+    </div>
+
+  </div>
+</section><br>
+<section class="timeline" id="section-resume">
+  <div class="column">
+    <h2>Education</h2>
+
+    <div class="card">
+      <span class="date">📅 September 2023 – June 2026</span>
+      <h3>Diploma Engineering in CSE</h3>
+      <p>Government Polytechnic, Bhojpur</p>
+    </div>
+
+    <div class="card">
+      <span class="date">📅 15 January 2023</span>
+      <h3>Advance Diploma in Computer Application </h3>
+      <p>Ambition Coaching Institute</p>
+    </div>
+
+    <div class="card">
+      <span class="date">📅 March 2022 – 2023</span>
+      <h3>Matriculation</h3>
+      <p>S.G.G.S Girls High School, Patna City</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <h2>Experience</h2>
+
+    <div class="card">
+      <span class="date">📅02 June 2025 – 12 July 2025</span>
+      <h3>Full Stack Web Development</h3>
+      <p>NIELIT</p>
+    </div>
+
+    <div class="card">
+      <span class="date">📅15 September 2024 – 15 October 2024 </span>
+      <h3>Web Designer</h3>
+      <p>Khabai Tech</p>
+    </div>
+
+    <div class="card">
+      <span class="date">📅03 December 2024 – 15 December 2025</span>
+      <h3>Web Design Development Workshop </h3>
+      <p>Infochord Tech.Pvt.Ltd.</p>
     </div>
 
   </div>
 </section>
+
+ 
+<!-- contact -->
+
+<div id="cont">
+ <section class="contact-section" id="section-contact">
+  <h1>Contact Me</h1>
+  <p class="subtitle">let’s build something together</p>
+
+  <div class="contact-container">
+
+    <!-- Left -->
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>
+        Interested in working together or have any ideas?
+        Feel free to reach out — I’m always open to discussions
+        and new opportunities.
+      </p>
+
+      <div class="info-item">
+        <span>👤</span>
+        <div>
+          <h4>Name</h4>
+          <p>Vaishnavi Kumari</p>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <span>📷</span>
+        <div>
+          <h4>Instagram</h4>
+          <a href="https://www.instagram.com/vaishnavi_kumari_24?igsh=MWs2Z3VteG4wb3g3eA==">@click_here</a>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <span>💼</span>
+        <div>
+          <h4>LinkedIn</h4>
+          <a href="https://www.linkedin.com/in/vaishnavi-kumari-160933330/" >Click here</a>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <span>🐦</span>
+        <div>
+          <h4>X (Twitter)</h4>
+          <a href="https://x.com/Vaishna54952042/">Click here</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right -->
+    <div class="contact-box">
+      <h3>Quick Message</h3>
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <textarea placeholder="Your Message"></textarea>
+      <button>Send Message</button>
+    </div>
+
+  </div>
+
+  <button class="scroll-top" onclick="scrollTopPage()">↑</button>
+</section>
+</div>
+
 
 <script src="about.js"></script>
 </body>
