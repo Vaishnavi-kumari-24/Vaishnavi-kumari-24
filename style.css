@@ -57,7 +57,7 @@
 /* HERO */
 .hero {
   height: 100vh;
-   background: url("my_pic.jpeg") center/cover no-repeat; 
+   background: url("images/my_pic.jpeg") center/cover no-repeat; 
   background-color: #000;
   position: relative;
   display: flex;
