@@ -56,13 +56,14 @@
 }
 /* HERO */
 .hero {
-  height: 100vh;
+  height: 50vh;
    background: url("images/my_pic.jpeg") center/cover no-repeat; 
   background-color: #000;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size:50px;
 }
 
 .overlay {
