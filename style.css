@@ -1,4 +1,4 @@
- * {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -59,7 +59,7 @@
   height: 100vh;
    /* background: url("images/my_pic.jpeg") center/cover no-repeat;  */
    /* background: #0b9f8e; */
-    background: #009688;
+    background:black;
   position: relative;
   display: flex;
   justify-content: center;
@@ -252,8 +252,8 @@
 
 .project-card:hover{
   transform:translateY(-8px);
-   background: #009688;
-   color: white;
+   background:wheat;
+   color: black;
 }
 
 .project-card img{
